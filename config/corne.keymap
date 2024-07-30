@@ -46,7 +46,7 @@
 //                    | TAB | LWR | SHFT |   | SPC | RSE  | TAB |
                         bindings = <
    &kp TILDE &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &trans    &kp BSPC  &kp DEL
-   &kp LCTRL &kp ESC  &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC  &kp PIPE  &trans
+   &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC  &kp PIPE  &trans
    &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp DQT   &kp GRAVE &trans          &trans    &kp FSLH  &trans
                     	     &trans   &trans   &trans      &trans   &mo 3     &trans
                         >;
@@ -55,12 +55,12 @@
                 raise_layer {
 // -----------------------------------------------------------------------------------------
 // |  `   |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  |  DEL |
-// |      |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |      |
+// |      | ESC |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |      |
 // | SHFT |     |     |     |     |     |   |  '  |  ~  |     |     |  ?  |      |
 //                    | GUI |     | SPC |   | ENT | ADJ | ALT |
                         bindings = <
    &kp GRAVE  &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6    &kp N7    &kp N8    &kp N9    &kp N0     &kp DEL
-   &trans     &trans       &trans       &trans       &trans       &trans         &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT  &kp BSLH   &trans
+   &trans     &kp ESC      &trans       &trans       &trans       &trans         &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT  &kp BSLH   &trans
    &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &kp SQT   &kp TILDE &trans    &trans    &kp QMARK  &trans
                           	        &trans       &mo 3        &trans         &trans   &trans    &trans
                         >;
